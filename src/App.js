@@ -41,7 +41,7 @@ class App extends React.Component {
             return robot.name.toLowerCase().includes(searchField.toLowerCase());
     })
 
-    if(robots.length===0){
+    if(!robots.length){
       return <h1 className="tc">LOADING</h1>
     }
     else{
