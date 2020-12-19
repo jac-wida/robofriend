@@ -3,6 +3,9 @@ import Card from './Card';
 
 const CardList = ({robots}) =>{
     const rrobots =robots;
+    // if(true){
+    //     throw new Error("oppppp");
+    // }
     return(
         <div>
             {
